@@ -6,6 +6,7 @@ class Reviews extends Component {
     return (
       <ul>
         Reviews
+        {this.props.reviews }
       </ul>
     );
   }
